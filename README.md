@@ -1,55 +1,56 @@
 # Supermarket-Sales-Dashboard
-Membuat dashboard interaktif untuk memvisualisasikan tren penjualan supermarket berdasarkan produk, lokasi, dan tipe pelanggan. Dashboard ini memudahkan dalam menganalisis kinerja penjualan dengan filters dinamis berdasarkan metode pembayaran, periode, dan produk.
+Create an interactive dashboard to visualize supermarket sales trends based on product, location, and customer type. This dashboard makes it easy to analyze sales performance with dynamic filters based on payment method, period, and product.
+
 
 
 # 📊 **Supermarket Sales Analysis** 
 
-* **Dashboard Interaktif**: [Dashboard Link](https://lookerstudio.google.com/reporting/ddf5d061-66b8-456d-9f42-91248f3e7182) 🔗
+- **Interactive Dashboard**: [Dashboard Link](https://lookerstudio.google.com/reporting/ddf5d061-66b8-456d-9f42-91248f3e7182) 🔗
 * **Dataset**: [Dataset Link](https://docs.google.com/spreadsheets/d/1xc1tU_cZNO8Yi7ziAA8jZjvxHn2-SdXQvWkkCjsRwSY/edit?usp=sharing) 🔗
 
-## 🎯 **Tujuan Proyek**
-Proyek ini bertujuan untuk memberikan wawasan yang lebih dalam mengenai **kinerja penjualan supermarket** pada tahun 2019. Dashboard ini menyajikan **analisis penjualan** berdasarkan beberapa dimensi penting, seperti **produk**, **lokasi**, **jenis pelanggan**, dan **metode pembayaran**. Visualisasi ini mempermudah dalam memahami tren penjualan, performa berdasarkan wilayah, serta distribusi jenis pelanggan dan metode pembayaran.
+## 🎯 **Project Objective**
+This project aims to provide deeper insights into **supermarket sales performance** in 2019. This dashboard presents a **sales analysis** based on several important dimensions, such as **product**, **location**, **type of customer**, and **payment method**. This visualization makes it easier to understand sales trends, performance by region, and the distribution of customer types and payment methods.
 
-## 🔑 **Fitur Utama**
+## 🔑 **Key Features**
 
 ### 1. **Trendline by Revenue** 📈
-Menyajikan **tren penjualan sepanjang waktu** dengan **line chart**. Data dapat difilter berdasarkan **tanggal**, **cabang**, dan **kategori produk**.
-- Visualisasi ini memperlihatkan fluktuasi penjualan dengan jelas, lengkap dengan **target penjualan** dan **minimum revenue** .
-- Pengguna dapat dengan mudah melihat bagaimana penjualan berkinerja sepanjang periode dan membandingkannya dengan target yang telah ditetapkan.
+Presents **sales trends over time** with a **line chart**. Data can be filtered by **date**, **branch**, and **product category**.
+- This visualization clearly shows sales fluctuations, complete with **sales targets** and **minimum revenue** .
+- Users can easily see how sales are performing over the period and compare them to set targets.
 
 ### 2. **Sales Performance by Product Line, City, and Gender** 🏙️👩‍🦱👨‍🦱
-Visualisasi **bar chart** yang memperlihatkan performa penjualan berdasarkan **kota**, **produk**, dan **jenis kelamin** pelanggan.
-- **Insight Kota**: Menyajikan kota mana yang memberikan kontribusi terbesar terhadap penjualan.
-- **Analisis Gender**: Membandingkan penjualan produk antar segmen pasar berdasarkan **gender** pelanggan.
-- **Performa Berdasarkan Produk**: Membantu memahami produk mana yang terlaris di berbagai kota dan kategori pelanggan.
+A **bar chart** visualization that shows sales performance by customer **city**, **product**, and **gender**.
+- **City Insight**: Shows which cities contribute the most to sales.
+- **Gender Analysis**: Compares product sales between market segments based on customer **gender**.
+- **Performance by Product**: Helps you understand which products are the best sellers in different cities and customer categories.
 
 ### 3. **Customer Type Distribution by Gender** ♀️♂️
-Diagram **bar stacked** yang menunjukkan **distribusi pelanggan** berdasarkan **jenis kelamin** dan **tipe pelanggan** (anggota vs normal).
-- Tabel ini memperlihatkan jumlah pelanggan berdasarkan **gender** (pria dan wanita) serta **status keanggotaan** (anggota vs normal).
-- Dari diagram ini, kita bisa melihat bahwa pelanggan **wanita** memiliki jumlah **anggota** yang lebih banyak dibandingkan **pria**, tetapi pria lebih banyak berbelanja dalam kategori **pelanggan biasa (non-member)**.
+A **bar stacked** diagram showing the **distribution of customers** by **gender** and **customer type** (member vs. normal).
+- This table shows the number of customers by **gender** (male and female) and **membership status** (member vs. normal).
+- From this diagram, we can see that **female** customers have a greater number of **members** than **men**, but men shop more in the **regular customer (non-member)** category.
 
 ### 4. **Payment Method Distribution** 💳💵📲
-Diagram **pie chart** yang menggambarkan **persentase metode pembayaran** yang digunakan oleh pelanggan.
-- **Persentase Penggunaan Metode Pembayaran**: Menampilkan proporsi antara penggunaan **ewallet**, **cash**, dan **credit card**.
-- **Insight Dominasi Pembayaran**: Mengungkapkan metode pembayaran yang paling banyak digunakan di supermarket, yang sangat berguna untuk strategi pembayaran dan analisis transaksi.
+A **pie chart** diagram that illustrates the **percentage of payment methods** used by customers.
+- **Percentage of Payment Method Usage**: Displays the proportion between the use of **ewallet**, **cash**, and **credit card**.
+- **Payment Dominance Insight**: Reveals the most widely used payment methods in supermarkets, which is very useful for payment strategies and transaction analysis.
 
-## 🔧 **Fitur Interaktif**
+## 🔧 **Interactive Features**
 
-- **Filters:** Pengguna dapat memilih rentang waktu, cabang, dan kategori produk yang ingin dianalisis untuk memperkecil fokus data yang ditampilkan pada dashboard.
-- **Metrics Summary:** Pada bagian atas dashboard, terdapat metrik kunci yang menunjukkan:
-  - **Revenue**: Total pendapatan yang dihasilkan.
-  - **Record Count**: Jumlah transaksi yang terjadi.
-  - **Quantity**: Total jumlah produk yang terjual.
-- Pengguna dapat dengan mudah mendapatkan **gambaran singkat** mengenai kinerja penjualan sepanjang periode yang dipilih.
-  
-## 🖥️ **Penggunaan Dashboard**
-Dashboard ini dirancang untuk membantu **tim manajemen**, **analisis penjualan**, dan dan **stakeholders** lainnya dalam memahami lebih baik pola-pola dalam data penjualan. Dengan informasi yang ditampilkan, mereka dapat **mengambil keputusan strategis** dalam hal **strategi penjualan**, **kampanye promosi**, dan **perencanaan ke depan** berdasarkan **metode pembayaran**, **jenis pelanggan**, dan **kinerja di berbagai kota**.
+- **Filters:** Users can select the time range, branch, and product category they want to analyze to narrow down the focus of the data displayed on the dashboard.
+- **Metrics Summary:** At the top of the dashboard, there are key metrics that show:
+- **Revenue**: Total revenue generated.
+- **Record Count**: The number of transactions that occurred.
+- **Quantity**: Total number of products sold.
+Users can easily get a **brief overview** of sales performance over the selected period.
 
-## 📝 **Kesimpulan**
-Proyek ini menyajikan **dashboard interaktif** yang tidak hanya memperlihatkan data secara visual, tetapi juga memberikan pemahaman mendalam mengenai **perilaku pelanggan** dan **kinerja penjualan supermarket** di tahun 2019. Dengan fitur-fitur yang dapat disesuaikan, dashboard ini memungkinkan pengguna untuk mengeksplorasi berbagai aspek bisnis dan mengambil keputusan berbasis data yang lebih efektif.
+## 🖥️ **Dashboard Usage**
+This dashboard is designed to help **management teams**, **sales analysts**, and other **stakeholders** better understand patterns in sales data. With the information displayed, they can **make strategic decisions** in terms of **sales strategy**, **promotional campaigns**, and **forward planning** based on **payment methods**, **customer types**, and **performance in various cities**.
 
-## 🛠️ **Tools yang Digunakan:**
+## 📝 **Conclusion**
+This project presents an **interactive dashboard** that not only visually displays data, but also provides an in-depth understanding of **customer behavior** and **supermarket sales performance** in 2019. With customizable features, this dashboard allows users to explore various aspects of the business and make more effective data-driven decisions.
 
-- **Google Looker Studio** untuk visualisasi dan dashboard interaktif.
-- **Google Colab** untuk **preprocessing data**, termasuk perbaikan **kesalahan penulisan** (typo), penyesuaian **tipe data**, dan pembersihan data lainnya agar dataset lebih konsisten dan siap digunakan dalam analisis lebih lanjut.
-- **Google Sheets** untuk pengolahan data dan sumber data utama.
+## 🛠️ **Tools Used:**
+
+- **Google Looker Studio** for visualization and interactive dashboards.
+- **Google Colab** for **data preprocessing**, including **typo** correction, **data type** adjustments, and other data cleansing to make the dataset more consistent and ready for further analysis.
+- **Google Sheets** for data processing and main data sources.
